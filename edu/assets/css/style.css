@@ -17144,6 +17144,7 @@ textarea.form-control-lg {
   padding-right: 0;
 }
 */
+
 .btn-primary-soft {
   color: #066ac9;
   background-color: rgba(6, 106, 201, 0.1);
@@ -20681,6 +20682,11 @@ html[dir=rtl] .choices__input {
 }
 .ql-snow .ql-stroke {
   stroke: #747579;
+}
+
+.textdanger {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
 }
 
 /*User CSS*/
